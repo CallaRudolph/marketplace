@@ -6,9 +6,9 @@ $(function(){
     var nameInput = $("input#name").val();
     var address = $("input#address").val();
 
-    $("#receipt").text(cdtype + address + nameInput);
-    // $("#receipt").text(address);
-    // $("#receipt").text(nameInput);
+    $("#Nam").text(nameInput);
+    $("#cd").text(cdtype);
+    $("#Addr").text(address);
     $("#receipt").show();
   });
 
